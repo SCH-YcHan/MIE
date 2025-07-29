@@ -32,3 +32,9 @@ pip install -U mmengine
 pip install -U openmim
 mim install mmcv==2.0.0
 ```
+```
+# Numpy version modify
+pip uninstall numpy -y
+pip cache purge
+pip install numpy==1.24.4
+```
