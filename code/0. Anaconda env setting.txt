@@ -1,0 +1,11 @@
+conda create -n MIE python=3.10
+activate MIE
+
+conda install jupyter notebook
+
+git clone https://github.com/SCH-YcHan/MIE.git
+cd MIE
+
+git clone -b main https://github.com/open-mmlab/mmsegmentation.git
+cd mmsegmentation
+pip install -v -e .

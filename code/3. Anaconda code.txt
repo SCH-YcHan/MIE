@@ -1,0 +1,80 @@
+[Setting]
+1. _base_/datasets/*.py files path modify -> data_root = 'your path'
+2. configs folder (MIE/configs) move -> mmsegmentation/configs (overwrite)
+3. _base_ folder (MIE/_base_) move -> mmsegmentation/configs/_base_ (overwrite)
+
+[Train]
+activate MIE
+cd MIE
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x2-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x2-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x2-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x2-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x2-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x3-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x3-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x3-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x3-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x3-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x4-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x4-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x4-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x4-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/unet/unet-x4-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x2-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x2-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x2-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x2-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x2-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x3-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x3-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x3-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x3-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x3-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x4-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x4-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x4-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x4-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/deeplabv3/deeplabv3-x4-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x2-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x2-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x2-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x2-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x2-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x3-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x3-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x3-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x3-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x3-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x4-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x4-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x4-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x4-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/segformer/segformer-x4-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x2-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x2-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x2-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x2-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x2-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x3-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x3-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x3-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x3-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x3-glomer-fold4.py
+
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x4-glomer-fold0.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x4-glomer-fold1.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x4-glomer-fold2.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x4-glomer-fold3.py
+python mmsegmentation/tools/train.py mmsegmentation/configs/pidnet/pidnet-s-x4-glomer-fold4.py
