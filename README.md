@@ -19,7 +19,8 @@ conda install jupyter notebook
 ```
 ```
 # git clone this repository
-git clone https://github.com/SCH-YcHan/Glomer.git 
+git clone https://github.com/SCH-YcHan/Glomer.git
+cd MIE
 ```
 ```
 # git clone mmsegmentation
