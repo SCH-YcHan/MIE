@@ -1,0 +1,5 @@
+HuBMAP - Hacking the Kidney (Kaggle competition)
+URL: https://www.kaggle.com/competitions/hubmap-kidney-segmentation
+
+1. Download train(include 15 tiff files), train.csv
+2. Move to MIE/data folder (Final path: MIE/data/train, MIE/data/train.csv)
