@@ -1,0 +1,31 @@
+[Anaconda env]
+python mmsegmentation/tools/analysis_tools/model_ensemble.py \
+	--config work_dirs/unet-x2-glomer-fold0/unet-x2-glomer-fold0.py work_dirs/unet-x2-glomer-fold0/unet-x2-glomer-fold0.py work_dirs/unet-x2-glomer-fold0/unet-x2-glomer-fold0.py \
+	--checkpoint work_dirs/unet-x2-glomer-fold0/iter_80000.pth work_dirs/unet-x3-glomer-fold0/iter_80000.pth work_dirs/unet-x4-glomer-fold0/iter_80000.pth \
+	--gpus 0 \
+	--out ensemble_result/unet-ensemble0 \
+
+python mmsegmentation/tools/analysis_tools/model_ensemble.py \
+	--config work_dirs/unet-x2-glomer-fold1/unet-x2-glomer-fold1.py work_dirs/unet-x2-glomer-fold1/unet-x2-glomer-fold1.py work_dirs/unet-x2-glomer-fold1/unet-x2-glomer-fold1.py \
+	--checkpoint work_dirs/unet-x2-glomer-fold1/iter_80000.pth work_dirs/unet-x3-glomer-fold1/iter_80000.pth work_dirs/unet-x4-glomer-fold1/iter_80000.pth \
+	--gpus 0 \
+	--out ensemble_result/unet-ensemble1 \
+
+python mmsegmentation/tools/analysis_tools/model_ensemble.py \
+	--config work_dirs/unet-x2-glomer-fold2/unet-x2-glomer-fold2.py work_dirs/unet-x2-glomer-fold2/unet-x2-glomer-fold2.py work_dirs/unet-x2-glomer-fold2/unet-x2-glomer-fold2.py \
+	--checkpoint work_dirs/unet-x2-glomer-fold2/iter_80000.pth work_dirs/unet-x3-glomer-fold2/iter_80000.pth work_dirs/unet-x4-glomer-fold2/iter_80000.pth \
+	--gpus 0 \
+	--out ensemble_result/unet-ensemble2 \
+
+python mmsegmentation/tools/analysis_tools/model_ensemble.py \
+	--config work_dirs/unet-x2-glomer-fold3/unet-x2-glomer-fold3.py work_dirs/unet-x2-glomer-fold3/unet-x2-glomer-fold3.py work_dirs/unet-x2-glomer-fold3/unet-x2-glomer-fold3.py \
+	--checkpoint work_dirs/unet-x2-glomer-fold3/iter_80000.pth work_dirs/unet-x3-glomer-fold3/iter_80000.pth work_dirs/unet-x4-glomer-fold3/iter_80000.pth \
+	--gpus 0 \
+	--out ensemble_result/unet-ensemble3 \
+
+python mmsegmentation/tools/analysis_tools/model_ensemble.py \
+	--config work_dirs/unet-x2-glomer-fold4/unet-x2-glomer-fold4.py work_dirs/unet-x2-glomer-fold4/unet-x2-glomer-fold4.py work_dirs/unet-x2-glomer-fold4/unet-x2-glomer-fold4.py \
+	--checkpoint work_dirs/unet-x2-glomer-fold4/iter_80000.pth work_dirs/unet-x3-glomer-fold4/iter_80000.pth work_dirs/unet-x4-glomer-fold4/iter_80000.pth \
+	--gpus 0 \
+	--out ensemble_result/unet-ensemble4 \
+
