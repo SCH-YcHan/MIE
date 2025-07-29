@@ -3,18 +3,18 @@ MIE: Magnification Integrated Ensemble method for improving glomeruli segmentati
 
 ## Env setting (Local)
 ```
-OS: Windows 10 Pro
-CPU: Intel(R) Core(TM) i9-10900X 
-GPU: NVIDIA GeForce RTX 2080 Ti
-CUDA version: 11.7
+OS: Windows 11 Pro
+CPU: 12th Gen Intel(R) Core(TM) i7-12700F 
+GPU: NVIDIA GeForce RTX 4070
+CUDA version: 11.8
 CuDNN version: 8.4.0
 Workstation: Anaconda3
 ```
 ```
 # Anaconda env setting
-conda create -n HuBMAP python=3.10
-activate HuBMAP
-conda install pytorch torchvision torchaudio-cuda=11.7 -c pytorch -c nvidia
+conda create -n MIE python=3.10
+activate MIE
+conda install pytorch torchvision torchaudio-cuda=11.8 -c pytorch -c nvidia
 conda install jupyter notebook
 ```
 ```
