@@ -28,4 +28,5 @@ pip install -r requirements.txt
 git clone -b main https://github.com/open-mmlab/mmsegmentation.git
 cd mmsegmentation
 pip install -v -e .
+pip install -U mmengine
 ```
