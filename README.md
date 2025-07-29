@@ -30,5 +30,5 @@ cd mmsegmentation
 pip install -v -e .
 pip install -U mmengine
 pip install -U openmim
-mim install "mmcv>=2.0.0"
+mim install mmcv==2.0.0
 ```
