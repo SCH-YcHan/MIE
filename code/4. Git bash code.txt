@@ -1,0 +1,5 @@
+cd MIE
+bash unet.sh
+bash deeplabv3.sh
+bash segformer.sh
+bash pidnet.sh

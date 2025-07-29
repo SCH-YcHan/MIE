@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Activate the HuBMAP virtual environment
+# Activate the MIE virtual environment
 source ~/anaconda3/etc/profile.d/conda.sh
-conda activate HuBMAP
+conda activate MIE
 
 # Set Python encoding to UTF-8
 export PYTHONIOENCODING=UTF-8
 
 # Change to the target directory
-cd ~/Desktop/glomer
+cd ~/MIE
 
 # Define arrays for the models, folds and their respective paths
 models=("segformer-x2-glomer" "segformer-x3-glomer" "segformer-x4-glomer")

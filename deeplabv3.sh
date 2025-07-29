@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Activate the HuBMAP virtual environment
+# Activate the MIE virtual environment
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate MIE
 
@@ -8,7 +8,7 @@ conda activate MIE
 export PYTHONIOENCODING=UTF-8
 
 # Change to the target directory
-cd ~/Desktop/glomer
+cd ~/MIE
 
 # Define arrays for the models, folds and their respective paths
 models=("deeplabv3-x2-glomer" "deeplabv3-x3-glomer" "deeplabv3-x4-glomer")
