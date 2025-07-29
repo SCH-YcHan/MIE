@@ -14,7 +14,7 @@ Workstation: Anaconda3
 # Anaconda env setting
 conda create -n MIE python=3.10
 activate MIE
-conda install pytorch torchvision torchaudio-cuda=11.8 -c pytorch -c nvidia
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 conda install jupyter notebook
 ```
 ```
