@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'GlomerDataset'
-data_root = 'C:/Users/user/Desktop/glomer/data/x4/'
+data_root = 'E:/Study/Glomer/MIE/data/x4/'
 crop_size = (256, 256)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
