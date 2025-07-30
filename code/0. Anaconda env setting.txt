@@ -1,11 +1,14 @@
+# Anaconda env setting
 conda create -n MIE python=3.10
 activate MIE
-
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 conda install jupyter notebook
 
-git clone https://github.com/SCH-YcHan/MIE.git
+# git clone this repository
+git clone https://github.com/SCH-YcHan/Glomer.git
 cd MIE
 
+# git clone mmsegmentation
 git clone -b main https://github.com/open-mmlab/mmsegmentation.git
 cd mmsegmentation
 pip install -v -e .

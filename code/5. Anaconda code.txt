@@ -1,7 +1,6 @@
 [Setting]
-1. _base_/datasets/*.py files path modify -> data_root = 'your path'
-2. configs folder (MIE/configs) move -> mmsegmentation/configs (overwrite)
-3. _base_ folder (MIE/_base_) move -> mmsegmentation/configs/_base_ (overwrite)
+1. configs folder (MIE/configs) move -> mmsegmentation/configs (overwrite)
+2. _base_ folder (MIE/_base_) move -> mmsegmentation/configs/_base_ (overwrite)
 
 [Train]
 activate MIE
